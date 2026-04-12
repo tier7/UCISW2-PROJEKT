@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xczu3eg-sfvc784-2-e" LaunchTime="1776034441">
+  <File Type="ROUTE-PWR" Name="top_reaction_ps2_demo_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="top_reaction_ps2_demo.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_reaction_ps2_demo_power_summary_routed.pb"/>
+  <File Type="OPT-RQA-PB" Name="top_reaction_ps2_demo_rqa_opted.pb"/>
+  <File Type="REPORTS-TCL" Name="top_reaction_ps2_demo_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="top_reaction_ps2_demo_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="top_reaction_ps2_demo_opt.dcp"/>
+  <File Type="OPT-DRC" Name="top_reaction_ps2_demo_drc_opted.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_reaction_ps2_demo_routed_bb.dcp"/>
+  <File Type="OPT-UTIL" Name="top_reaction_ps2_demo_utilization_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_reaction_ps2_demo_timing_summary_routed.pb"/>
+  <File Type="OPT-UTIL-PB" Name="top_reaction_ps2_demo_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_reaction_ps2_demo_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_reaction_ps2_demo.hwdef"/>
+  <File Type="OPT-TIMING" Name="top_reaction_ps2_demo_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="top_reaction_ps2_demo_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="top_reaction_ps2_demo_drc_pwropted.rpt"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="top_reaction_ps2_demo.nts"/>
+  <File Type="PWROPT-TIMING" Name="top_reaction_ps2_demo_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_reaction_ps2_demo_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_reaction_ps2_demo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="top_reaction_ps2_demo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_reaction_ps2_demo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_reaction_ps2_demo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_reaction_ps2_demo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_reaction_ps2_demo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_reaction_ps2_demo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="NOC_SOLUTION_FILE" Name="top_reaction_ps2_demo.ncr"/>
+  <File Type="PLACE-TIMING" Name="top_reaction_ps2_demo_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_reaction_ps2_demo_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="top_reaction_ps2_demo_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_reaction_ps2_demo_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_reaction_ps2_demo_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="top_reaction_ps2_demo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_reaction_ps2_demo_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="top_reaction_ps2_demo_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-UTIL" Name="top_reaction_ps2_demo_utilization_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_reaction_ps2_demo_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_reaction_ps2_demo_routed.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_reaction_ps2_demo_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="top_reaction_ps2_demo_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="top_reaction_ps2_demo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_reaction_ps2_demo_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_reaction_ps2_demo_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_reaction_ps2_demo_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_reaction_ps2_demo_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_reaction_ps2_demo_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="top_reaction_ps2_demo_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="top_reaction_ps2_demo_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_reaction_ps2_demo_route_status.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_reaction_ps2_demo_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_reaction_ps2_demo_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="top_reaction_ps2_demo_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_reaction_ps2_demo_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_reaction_ps2_demo_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_reaction_ps2_demo_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_reaction_ps2_demo_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_reaction_ps2_demo_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_reaction_ps2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_reaction_ps2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_reaction_ps2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_reaction_ps2_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_reaction_ps2_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_reaction_ps2_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="top_reaction_ps2_demo.bit"/>
+  <File Type="BG-BIN" Name="top_reaction_ps2_demo.bin"/>
+  <File Type="BITSTR-MSK" Name="top_reaction_ps2_demo.msk"/>
+  <File Type="BITSTR-RBT" Name="top_reaction_ps2_demo.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_reaction_ps2_demo.nky"/>
+  <File Type="BITSTR-BMM" Name="top_reaction_ps2_demo_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="top_reaction_ps2_demo.mmi"/>
+  <File Type="PDI-FILE" Name="top_reaction_ps2_demo.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="top_reaction_ps2_demo_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="top_reaction_ps2_demo_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="top_reaction_ps2_demo.rcfi"/>
+  <File Type="CFI_FILE" Name="top_reaction_ps2_demo.cfi"/>
+  <File Type="RNPI_FILE" Name="top_reaction_ps2_demo.rnpi"/>
+  <File Type="RCDO-FILE" Name="top_reaction_ps2_demo.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="top_reaction_ps2_demo_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="top_reaction_ps2_demo_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="top_reaction_ps2_demo_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="top_reaction_ps2_demo_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="top_reaction_ps2_demo_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="top_reaction_ps2_demo_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="top_reaction_ps2_demo_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="top_reaction_ps2_demo_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="top_reaction_ps2_demo_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="top_reaction_ps2_demo_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="top_reaction_ps2_demo_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="top_reaction_ps2_demo_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="top_reaction_ps2_demo_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="top_reaction_ps2_demo_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="top_reaction_ps2_demo_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="top_reaction_ps2_demo.npi"/>
+  <File Type="RBD_FILE" Name="top_reaction_ps2_demo.rbd"/>
+  <File Type="MMI-FILE" Name="top_reaction_ps2_demo.mmi"/>
+  <File Type="BIF-FILE" Name="top_reaction_ps2_demo.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="top_reaction_ps2_demo_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="top_reaction_ps2_demo_pld.bif"/>
+  <File Type="LTX-FILE" Name="top_reaction_ps2_demo.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="top_reaction_ps2_demo_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="top_reaction_ps2_demo_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="top_reaction_ps2_demo.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_reaction_ps2_demo.sysdef"/>
+  <File Type="BG-BGN" Name="top_reaction_ps2_demo.bgn"/>
+  <File Type="BG-DRC" Name="top_reaction_ps2_demo.drc"/>
+  <File Type="RDI-RDI" Name="top_reaction_ps2_demo.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="top_reaction_ps2_demo_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="top_reaction_ps2_demo_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../PS2_Kbd/PS2_Kbd.edf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../PS2_Kbd/PS2_Kbd_wrap.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ps2_keypress.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reaction_fsm.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/timer_ms.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wait_delay.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_reaction_test.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_reaction_ps2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_reaction_ps2_demo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_reaction_ps2_demo"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/top_reaction_ps2.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
