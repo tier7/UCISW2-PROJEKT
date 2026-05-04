@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon May  4 21:42:43 2026
+# Process ID         : 8412
+# Current directory  : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/impl_1
+# Command line       : vivado.exe -log top_reaction_ps2_demo.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_reaction_ps2_demo.tcl -notrace
+# Log file           : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/impl_1/top_reaction_ps2_demo.vdi
+# Journal file       : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-RMFOJ7L
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+# CPU Frequency      : 2904 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 17115 MB
+# Swap memory        : 26118 MB
+# Total Virtual      : 43233 MB
+# Available Virtual  : 28310 MB
+#-----------------------------------------------------------
+source top_reaction_ps2_demo.tcl -notrace

@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/ja/Downloads/ucisw2/ucisw2.runs/impl_1/top_reaction_ps2_demo.tcl"
+  variable script "C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/impl_1/top_reaction_ps2_demo.tcl"
   variable category "vivado_impl"
 }
 
@@ -97,6 +97,7 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Write Bitstream" START { ROLLUP_AUTO }
@@ -105,14 +106,20 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param power.BramSDPPropagationFix 1
   set_param general.usePosixSpawnForFork 1
   set_param chipscope.maxJobs 1
+  set_param physdb.placeDBImplUsesPlaceStorage 0
+  set_param power.enableUnconnectedCarry8PinPower 1
+  set_param power.enableCarry8RouteBelPower 1
+  set_param power.enableLutRouteBelPower 1
   set_param runs.launchOptions { -jobs 3  }
   open_checkpoint top_reaction_ps2_demo_routed.dcp
-  set_property webtalk.parent_dir C:/Users/ja/Downloads/ucisw2/ucisw2.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.cache/wt [current_project]
 set_property TOP top_reaction_ps2_demo [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
+  set_property XPM_LIBRARIES XPM_CDC [current_project]
   catch { write_mem_info -force -no_partial_mmi top_reaction_ps2_demo.mmi }
 OPTRACE "write_bitstream setup" END { }
 OPTRACE "write_bitstream" START { }

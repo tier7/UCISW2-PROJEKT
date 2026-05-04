@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/ja/Downloads/ucisw2/ucisw2.runs/synth_1'
+HD_PWD='C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

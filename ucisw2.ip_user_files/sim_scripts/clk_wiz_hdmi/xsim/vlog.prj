@@ -1,0 +1,8 @@
+verilog xil_defaultlib -i "D:/2025.2/Vivado/data/rsb/busdef" --include "../../../ipstatic" \
+"../../../../ucisw2.gen/sources_1/ip/clk_wiz_hdmi/clk_wiz_hdmi_clk_wiz.v" \
+"../../../../ucisw2.gen/sources_1/ip/clk_wiz_hdmi/clk_wiz_hdmi.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

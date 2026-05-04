@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity ps2_keypress is
     port (
@@ -15,10 +16,10 @@ end ps2_keypress;
 
 architecture Behavioral of ps2_keypress is
 
-    signal key_code_s  : std_logic_vector(7 downto 0);
-    signal e0_s        : std_logic;
-    signal f0_s        : std_logic;
-    signal key_rdy_s   : std_logic;
+    signal key_code_s : std_logic_vector(7 downto 0);
+    signal e0_s       : std_logic;
+    signal f0_s       : std_logic;
+    signal key_rdy_s  : std_logic;
 
     signal key_pulse_s : std_logic := '0';
     signal last_code_s : std_logic_vector(7 downto 0) := (others => '0');
@@ -44,6 +45,7 @@ begin
             if rst = '1' then
                 last_code_s <= (others => '0');
             else
+                -- naciśnięcie klawisza: Key_Rdy=1 i nie jest to release (F0=0)
                 if key_rdy_s = '1' and f0_s = '0' then
                     key_pulse_s <= '1';
                     last_code_s <= key_code_s;
@@ -53,7 +55,7 @@ begin
     end process;
 
     key_pressed   <= key_pulse_s;
-    key_code_dbg  <= last_code_s;
     key_ready_dbg <= key_pulse_s;
+    key_code_dbg  <= last_code_s;
 
 end Behavioral;

@@ -3,12 +3,12 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Apr 13 00:51:04 2026
-# Process ID         : 10576
-# Current directory  : C:/Users/ja/Downloads/ucisw2/ucisw2.runs/synth_1
+# Start of session at: Mon May  4 22:54:22 2026
+# Process ID         : 13836
+# Current directory  : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1
 # Command line       : vivado.exe -log top_reaction_ps2_demo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_reaction_ps2_demo.tcl
-# Log file           : C:/Users/ja/Downloads/ucisw2/ucisw2.runs/synth_1/top_reaction_ps2_demo.vds
-# Journal file       : C:/Users/ja/Downloads/ucisw2/ucisw2.runs/synth_1\vivado.jou
+# Log file           : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1/top_reaction_ps2_demo.vds
+# Journal file       : C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1\vivado.jou
 # Running On         : DESKTOP-RMFOJ7L
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 19045
@@ -17,92 +17,117 @@
 # CPU Physical cores : 6
 # CPU Logical cores  : 6
 # Host memory        : 17115 MB
-# Swap memory        : 9126 MB
-# Total Virtual      : 26242 MB
-# Available Virtual  : 12394 MB
+# Swap memory        : 26118 MB
+# Total Virtual      : 43233 MB
+# Available Virtual  : 26179 MB
 #-----------------------------------------------------------
 source top_reaction_ps2_demo.tcl -notrace
-create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 527.699 ; gain = 218.965
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 529.410 ; gain = 220.016
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/IP_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/2025.2/Vivado/data/ip'.
-Command: read_checkpoint -auto_incremental -incremental C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/utils_1/imports/synth_1/top_reaction_ps2.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/utils_1/imports/synth_1/top_reaction_ps2.dcp for incremental synthesis
+Command: read_checkpoint -auto_incremental -incremental C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/utils_1/imports/synth_1/top_reaction_ps2.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/utils_1/imports/synth_1/top_reaction_ps2.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top top_reaction_ps2_demo -part xczu3eg-sfvc784-2-e
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
 INFO: [Device 21-403] Loading part xczu3eg-sfvc784-2-e
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16872
+INFO: [Synth 8-7075] Helper process launched with PID 24912
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1753.293 ; gain = 205.602
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1758.695 ; gain = 207.020
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top_reaction_ps2_demo' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:24]
-INFO: [Synth 8-113] binding component instance 'u_ibufds' to cell 'IBUFDS' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:50]
-INFO: [Synth 8-638] synthesizing module 'top_reaction_ps2' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_ps2.vhd:40]
+WARNING: [Synth 8-9112] actual for formal port 'resetn' is neither a static name nor a globally static expression [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'top_reaction_ps2_demo' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:36]
+INFO: [Synth 8-113] binding component instance 'u_ibufds' to cell 'IBUFDS' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'top_reaction_ps2' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2.vhd:41]
 	Parameter CLK_FREQ_HZ bound to: 100000000 - type: integer 
 	Parameter WAIT_MS bound to: 2000 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'ps2_keypress' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/ps2_keypress.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2_keypress' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/ps2_keypress.vhd:17]
 INFO: [Synth 8-638] synthesizing module 'PS2_Kbd_wrap' [C:/Users/ja/Downloads/PS2_Kbd/PS2_Kbd_wrap.vhd:16]
 INFO: [Synth 8-637] synthesizing blackbox instance 'i_wrap' of component 'PS2_Kbd' [C:/Users/ja/Downloads/PS2_Kbd/PS2_Kbd_wrap.vhd:32]
 INFO: [Synth 8-256] done synthesizing module 'PS2_Kbd_wrap' (0#1) [C:/Users/ja/Downloads/PS2_Kbd/PS2_Kbd_wrap.vhd:16]
-INFO: [Synth 8-256] done synthesizing module 'ps2_keypress' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/ps2_keypress.vhd:16]
-INFO: [Synth 8-638] synthesizing module 'wait_delay' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/wait_delay.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keypress' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/ps2_keypress.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'random_delay' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/random_delay.vhd:21]
 	Parameter CLK_FREQ_HZ bound to: 100000000 - type: integer 
-	Parameter WAIT_MS bound to: 2000 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'wait_delay' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/wait_delay.vhd:19]
-INFO: [Synth 8-638] synthesizing module 'top_reaction_test' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:35]
+	Parameter MIN_MS bound to: 1000 - type: integer 
+	Parameter MAX_MS bound to: 3000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'random_delay' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/random_delay.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'top_reaction_test' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:36]
 	Parameter CLK_FREQ_HZ bound to: 100000000 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'reaction_fsm' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/reaction_fsm.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'reaction_fsm' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/reaction_fsm.vhd:27]
-INFO: [Synth 8-638] synthesizing module 'timer_ms' [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/timer_ms.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'reaction_fsm' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/reaction_fsm.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'reaction_fsm' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/reaction_fsm.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'timer_ms' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/timer_ms.vhd:19]
 	Parameter CLK_FREQ_HZ bound to: 100000000 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'timer_ms' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/timer_ms.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'top_reaction_test' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:35]
-INFO: [Synth 8-256] done synthesizing module 'top_reaction_ps2' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_ps2.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'top_reaction_ps2_demo' (0#1) [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:24]
-WARNING: [Synth 8-6014] Unused sequential element result0_s_reg was removed.  [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:112]
-WARNING: [Synth 8-6014] Unused sequential element result1_s_reg was removed.  [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:113]
-WARNING: [Synth 8-6014] Unused sequential element result2_s_reg was removed.  [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:114]
-WARNING: [Synth 8-6014] Unused sequential element result3_s_reg was removed.  [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:115]
-WARNING: [Synth 8-6014] Unused sequential element result4_s_reg was removed.  [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:116]
+INFO: [Synth 8-256] done synthesizing module 'timer_ms' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/timer_ms.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'top_reaction_test' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'top_reaction_ps2' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'oled_ascii_formatter' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/oled_ascii_formatter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'oled_ascii_formatter' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/oled_ascii_formatter.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'OLED_ASCII_wrap' [C:/Users/ja/Documents/ucisw/OLED_ASCII/OLED_ASCII_wrap.vhd:15]
+INFO: [Synth 8-637] synthesizing blackbox instance 'wrap' of component 'OLED_ASCII' [C:/Users/ja/Documents/ucisw/OLED_ASCII/OLED_ASCII_wrap.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'OLED_ASCII_wrap' (0#1) [C:/Users/ja/Documents/ucisw/OLED_ASCII/OLED_ASCII_wrap.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_hdmi' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1/.Xil/Vivado-13836-DESKTOP-RMFOJ7L/realtime/clk_wiz_hdmi_stub.vhdl:19]
+INFO: [Synth 8-638] synthesizing module 'video_timing_640x480' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/video_timing_640x480.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'video_timing_640x480' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/video_timing_640x480.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'reaction_video' [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/reaction_video.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'reaction_video' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/reaction_video.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'HDMI_TX_wrap' [C:/Users/ja/Documents/ucisw/HDMI_TX/HDMI_TX_wrap.vhd:26]
+INFO: [Synth 8-637] synthesizing blackbox instance 'i_wrap' of component 'HDMI_TX' [C:/Users/ja/Documents/ucisw/HDMI_TX/HDMI_TX_wrap.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'HDMI_TX_wrap' (0#1) [C:/Users/ja/Documents/ucisw/HDMI_TX/HDMI_TX_wrap.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'top_reaction_ps2_demo' (0#1) [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_ps2_demo.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element result0_s_reg was removed.  [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:119]
+WARNING: [Synth 8-6014] Unused sequential element result1_s_reg was removed.  [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:120]
+WARNING: [Synth 8-6014] Unused sequential element result2_s_reg was removed.  [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:121]
+WARNING: [Synth 8-6014] Unused sequential element result3_s_reg was removed.  [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:122]
+WARNING: [Synth 8-6014] Unused sequential element result4_s_reg was removed.  [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/sources_1/new/top_reaction_test.vhd:123]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1873.562 ; gain = 325.871
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1885.910 ; gain = 334.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1873.562 ; gain = 325.871
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1885.910 ; gain = 334.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1873.562 ; gain = 325.871
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1885.910 ; gain = 334.234
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1873.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1885.910 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/constrs_1/new/top.xdc]
-create_clock: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1967.668 ; gain = 0.039
-Finished Parsing XDC File [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/constrs_1/new/top.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_reaction_ps2_demo_propImpl.xdc].
+Parsing XDC File [c:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.gen/sources_1/ip/clk_wiz_hdmi/clk_wiz_hdmi/clk_wiz_hdmi_in_context.xdc] for cell 'u_clk_hdmi'
+create_clock: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1983.051 ; gain = 18.199
+Finished Parsing XDC File [c:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.gen/sources_1/ip/clk_wiz_hdmi/clk_wiz_hdmi/clk_wiz_hdmi_in_context.xdc] for cell 'u_clk_hdmi'
+Parsing XDC File [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3.xdc]
+Finished Parsing XDC File [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_reaction_ps2_demo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_reaction_ps2_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3_Exp.xdc]
+Finished Parsing XDC File [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3_Exp.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.srcs/constrs_1/new/ZU3_Exp.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_reaction_ps2_demo_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_reaction_ps2_demo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1967.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1983.051 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1967.668 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1983.051 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1983.051 ; gain = 431.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -110,74 +135,83 @@ Start Loading Part and Timing Information
 Loading part: xczu3eg-sfvc784-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1983.051 ; gain = 431.375
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start Preparing Guide Design
----------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/ja/Downloads/ucisw2/ucisw2.srcs/utils_1/imports/synth_1/top_reaction_ps2.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
----------------------------------------------------------------------------------
-Finished Doing Graph Differ : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Finished Preparing Guide Design : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1983.051 ; gain = 431.375
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'reaction_fsm'
+INFO: [Synth 8-802] inferred FSM for state register 'state_s_reg' in module 'oled_ascii_formatter'
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                 st_idle |                              101 |                              000
+                 st_idle |                              110 |                              000
           st_wait_random |                              001 |                              001
-              st_measure |                              100 |                              010
-          st_save_result |                              011 |                              011
-           st_next_trial |                              010 |                              100
-         st_final_result |                              000 |                              101
+       st_invalid_result |                              011 |                              100
+              st_measure |                              101 |                              010
+          st_save_result |                              100 |                              011
+           st_next_trial |                              010 |                              101
+         st_final_result |                              000 |                              110
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'reaction_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_idle |                          0000001 |                              000
+            st_clr_pulse |                          0000010 |                              001
+     st_wait_clr_busy_hi |                          0000100 |                              010
+     st_wait_clr_busy_lo |                          0001000 |                              011
+            st_send_char |                          0010000 |                              100
+    st_wait_char_busy_hi |                          0100000 |                              101
+    st_wait_char_busy_lo |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_s_reg' using encoding 'one-hot' in module 'oled_ascii_formatter'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.668 ; gain = 419.977
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1983.051 ; gain = 431.375
 ---------------------------------------------------------------------------------
-
-
-Incremental Synthesis Report Summary:
-
-1. Incremental synthesis run: no
-
-   Reason for not running incremental synthesis : 
-
-
-INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   32 Bit       Adders := 2     
-	   2 Input   31 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 8     
+	   2 Input   31 Bit       Adders := 9     
 	   2 Input   28 Bit       Adders := 1     
 	   2 Input   17 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 2     
 	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   4 Input      1 Bit         XORs := 1     
 +---Registers : 
-	               32 Bit    Registers := 3     
-	               28 Bit    Registers := 1     
+	               32 Bit    Registers := 4     
 	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
 	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 14    
+	                4 Bit    Registers := 1     
 	                3 Bit    Registers := 1     
-	                1 Bit    Registers := 4     
+	                1 Bit    Registers := 7     
 +---Muxes : 
-	   6 Input   32 Bit        Muxes := 1     
-	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 4     
+	   6 Input   32 Bit        Muxes := 4     
 	   2 Input   31 Bit        Muxes := 1     
-	   6 Input    3 Bit        Muxes := 2     
-	   2 Input    3 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 9     
-	   6 Input    1 Bit        Muxes := 3     
+	   2 Input    8 Bit        Muxes := 7     
+	   6 Input    8 Bit        Muxes := 1     
+	   3 Input    7 Bit        Muxes := 6     
+	   2 Input    7 Bit        Muxes := 17    
+	   4 Input    7 Bit        Muxes := 1     
+	   7 Input    7 Bit        Muxes := 1     
+	   7 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 15    
+	   7 Input    1 Bit        Muxes := 6     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -194,25 +228,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1967.668 ; gain = 419.977
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:10 . Memory (MB): peak = 2234.535 ; gain = 682.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 2603.008 ; gain = 1055.316
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:20 ; elapsed = 00:01:23 . Memory (MB): peak = 2645.895 ; gain = 1094.219
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 2635.090 ; gain = 1087.398
+Finished Timing Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:02:22 . Memory (MB): peak = 3079.453 ; gain = 1527.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 2635.090 ; gain = 1087.398
+Finished Technology Mapping : Time (s): cpu = 00:02:20 ; elapsed = 00:02:25 . Memory (MB): peak = 3088.477 ; gain = 1536.801
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -230,37 +264,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished IO Insertion : Time (s): cpu = 00:02:28 ; elapsed = 00:02:33 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:28 ; elapsed = 00:02:33 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:28 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:28 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:28 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:28 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -270,57 +304,69 @@ Report BlackBoxes:
 +------+--------------+----------+
 |      |BlackBox name |Instances |
 +------+--------------+----------+
-|1     |PS2_Kbd       |         1|
+|1     |clk_wiz_hdmi  |         1|
+|2     |HDMI_TX       |         1|
+|3     |OLED_ASCII    |         1|
+|4     |PS2_Kbd       |         1|
 +------+--------------+----------+
 
 Report Cell Usage: 
-+------+-------------+------+
-|      |Cell         |Count |
-+------+-------------+------+
-|1     |PS2_Kbd_bbox |     1|
-|2     |BUFG         |     1|
-|3     |CARRY8       |     4|
-|4     |LUT1         |     2|
-|5     |LUT2         |     3|
-|6     |LUT3         |     5|
-|7     |LUT4         |    31|
-|8     |LUT5         |     6|
-|9     |LUT6         |     5|
-|10    |FDRE         |    35|
-|11    |FDSE         |     2|
-|12    |IBUF         |     4|
-|13    |IBUFDS       |     1|
-|14    |OBUF         |     4|
-+------+-------------+------+
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |HDMI_TX_bbox    |     1|
+|2     |OLED_ASCII_bbox |     1|
+|3     |PS2_Kbd_bbox    |     1|
+|4     |clk_wiz_hdmi    |     1|
+|5     |BUFG            |     1|
+|6     |CARRY8          |   430|
+|7     |LUT1            |    28|
+|8     |LUT2            |   445|
+|9     |LUT3            |   922|
+|10    |LUT4            |   617|
+|11    |LUT5            |   782|
+|12    |LUT6            |  2288|
+|13    |MUXF7           |     9|
+|14    |FDRE            |   285|
+|15    |FDSE            |    21|
+|16    |IBUF            |     4|
+|17    |IBUFDS          |     1|
+|18    |OBUF            |    12|
++------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:28 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 1 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:46 . Memory (MB): peak = 2865.441 ; gain = 1223.645
-Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 2865.441 ; gain = 1317.750
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:08 ; elapsed = 00:02:23 . Memory (MB): peak = 3188.629 ; gain = 1539.812
+Synthesis Optimization Complete : Time (s): cpu = 00:02:29 ; elapsed = 00:02:34 . Memory (MB): peak = 3188.629 ; gain = 1636.953
 INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [C:/Users/ja/Documents/ucisw/HDMI_TX/HDMI_TX.edf]
+Finished Parsing EDIF File [C:/Users/ja/Documents/ucisw/HDMI_TX/HDMI_TX.edf]
+Parsing EDIF File [C:/Users/ja/Documents/ucisw/OLED_ASCII/OLED_ASCII.edf]
+Finished Parsing EDIF File [C:/Users/ja/Documents/ucisw/OLED_ASCII/OLED_ASCII.edf]
 Parsing EDIF File [C:/Users/ja/Downloads/PS2_Kbd/PS2_Kbd.edf]
 Finished Parsing EDIF File [C:/Users/ja/Downloads/PS2_Kbd/PS2_Kbd.edf]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2865.441 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 3188.629 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 462 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2025.1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2865.441 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3188.629 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 6 instances were transformed.
+  A total of 9 instances were transformed.
   BUFG => BUFGCE: 1 instance 
   IBUF => IBUF (IBUFCTRL, INBUF): 4 instances
   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 2 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 1 instance 
 
-Synth Design complete | Checksum: 315f4f80
+Synth Design complete | Checksum: 88fa546f
 INFO: [Common 17-83] Releasing license: Synthesis
-45 Infos, 5 Warnings, 1 Critical Warnings and 0 Errors encountered.
+64 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:07 . Memory (MB): peak = 2865.441 ; gain = 2324.523
-INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2865.441 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Users/ja/Downloads/ucisw2/ucisw2.runs/synth_1/top_reaction_ps2_demo.dcp' has been generated.
+synth_design: Time (s): cpu = 00:02:42 ; elapsed = 00:02:50 . Memory (MB): peak = 3188.629 ; gain = 2601.988
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 3188.629 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ja/Documents/ucisw/UCISW2-PROJEKT-main/ucisw2.runs/synth_1/top_reaction_ps2_demo.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file top_reaction_ps2_demo_utilization_synth.rpt -pb top_reaction_ps2_demo_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 13 00:52:24 2026...
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 22:57:26 2026...
